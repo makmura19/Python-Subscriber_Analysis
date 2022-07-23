@@ -10,4 +10,4 @@ Python-Subscriber_Analysis is a program to analysis subscriber of telecommunicat
 Before you begin the program, you have meet the requirement:
 - Installed Python 3.xx and main modules / libraries
 - Installed QGIS
-- Header of raw data (GroundHog CovMo data) as attached in repo
+- Raw data with header as similar to GroundHog CovMo data as attached in repo
