@@ -12,3 +12,18 @@ Before you begin the program, you have meet the requirement:
 - Python IDE (Jupyter or Spyder or PyCharm or Microsoft Visual Code) with latest version is better
 - Installed QGIS
 - Raw data with header as similar to GroundHog CovMo data as attached in repo
+
+# Running Program
+- Copy script in repo (app.py) and paste to IDE (script editor)
+- Change directory of raw data and output csv file as local PC you run
+
+# Release History
+- 0.0.1: Setup (beta version)
+- 0.0.2: Finalizing the script and change append method
+
+# Contributors
+- https://docs.python.org/3.7/tutorial/index.html
+- https://www.geeksforgeeks.org/python-programming-language/?ref=shm
+
+# Contact
+You can reach me at makmura19@gmail.com
