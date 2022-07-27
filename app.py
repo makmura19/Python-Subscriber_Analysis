@@ -23,10 +23,14 @@ df_subs['delta_long'] = df_subs.apply(lambda row: row.Longitude_y - row.Longitud
 
 #Vector Site - Add Longlat
 def vector_A(x,y,z,k):
+    """vector A defined by vector properties from site coordinate to tile coordinate (p,q coordinate as image shown in readme)
+    """
     return ((x-y)**2 + (z-k)**2)**0.5
 
 
 def vector_B(p,q,r,s):
+    """vector B defined by vector properties from site coordinate to supplementary coordinate
+    """
     return ((p-q)**2 + (r-s)**2)**0.5
 
 
