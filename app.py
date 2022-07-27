@@ -58,6 +58,10 @@ df_subs['dot_product_of_vectors'] = [dot_vectors(df_subs.Longitude_x[i],
 
 #Cos alpha & arc cos alpha
 def cos_alpha(x,y,z):
+    """x defined as dot product of vector A and vector B
+    y defined as length of vector A
+    z defned as length of vector B
+    """
     return x/(y*z)
 
 
